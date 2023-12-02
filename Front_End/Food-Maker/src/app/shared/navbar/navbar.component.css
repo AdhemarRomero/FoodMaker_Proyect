@@ -1,0 +1,41 @@
+.navbar-background {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar-background {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        z-index: 2;
+
+        width: 100%;
+        aspect-ratio: 340/81;
+
+        flex-shrink: 0;
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("/assets/navbar/navbar-background.svg");
+    }
+    
+    .navbar-routes {
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .navbar-route {
+        list-style: none;    
+    }
+
+    .navbar-plus-icon {
+        translate: -2px -35px;
+    }
+
+    .navbar-plus-icon-hidden {
+        visibility: hidden;
+    }
+}

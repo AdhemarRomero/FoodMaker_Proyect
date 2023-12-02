@@ -1,0 +1,12 @@
+<main class="favorite-detail-main-container">
+    <button (click)="handleClickBackButton()" class="favorite-detail-back-button">
+        Regresar
+    </button>
+
+    <header class="favorite-detail-header-container">
+        <h1> {{ collection.name }} </h1>
+    </header>
+    <section>
+        <app-collection-cards></app-collection-cards>
+    </section>
+</main>

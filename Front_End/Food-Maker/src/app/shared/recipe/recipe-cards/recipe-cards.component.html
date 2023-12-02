@@ -1,0 +1,6 @@
+<main class="recipe-cards-main-container">
+    <ng-container *ngFor="let showAvailableRecipe of showAvailableRecipes">
+        <app-recipe-card [showAvailableRecipe]="showAvailableRecipe"
+        ></app-recipe-card>
+    </ng-container>
+</main>

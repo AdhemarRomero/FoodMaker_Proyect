@@ -1,0 +1,49 @@
+<main class="welcome-view">
+    <section>
+        <img class="welcome-image" src="/assets/food-maker-logo.png" alt="">
+    </section>
+
+    <section>
+        <p class="welcome-main-title" >
+            Bienvenido a <span class="welcome-main-title-highlight">"FoodMaker"</span>
+        </p>
+        <h1 class="welcome-username"> {{ user.name }} </h1>
+    </section>
+
+    <section>
+        <form class="welcome-form-main-container"
+            [formGroup]="welcomeForm" 
+            (submit)="handleSubmitWelcomeForm()"
+        >
+            <p class="welcome-form-text">¿De cuanto tiempo dispones para cocinar?</p>
+
+            <div class="welcome-form-subcontainer">
+                <input class="welcome-form-input" 
+                    formControlName="minutes"
+                    type="number" 
+                    minlength="2" 
+                    maxlength="2"
+                    value="00"
+                    required
+                >
+                
+                <span class="welcome-form-input-separator">
+                    :
+                </span>
+                
+                <input class="welcome-form-input" 
+                    formControlName="seconds"
+                    type="number" 
+                    minlength="2" 
+                    maxlength="2"
+                    value="00"
+                    required
+                >
+            </div>
+
+            <button class="welcome-form-button">
+                Confirmar
+            </button>
+        </form>
+    </section>
+</main>

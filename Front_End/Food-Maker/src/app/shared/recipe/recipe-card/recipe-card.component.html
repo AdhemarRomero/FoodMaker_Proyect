@@ -1,0 +1,32 @@
+<figure (click)="handleRedirectRecipe()" class="recipe-card-container">
+    <div class="recipe-card-image-container">
+        <img class="recipe-card-image" [src]="image" alt="">
+    </div>
+
+    <div class="recipe-card-menu-container">
+        <img class="recipe-card-menu"
+            src="/assets/recipe-card/recipe-card-menu.svg" 
+            alt="menu"
+        >
+    </div>
+
+    <figcaption class="recipe-card-section">
+        <div class="recipe-card-backgroud-blur"></div>
+        <div class="recipe-card-backgroud">
+            <div class="recipe-card-subsection">
+                <h1 class="recipe-card-subsection-text"> {{ name }} </h1>
+                <div class="recipe-card-body">
+                    <div class="recipe-card-description"> 
+                        <img src="/assets/recipe-card/recipe-card-fork-spoon.svg" alt="">
+                        <p> {{ ingredients }} </p>
+                    </div>
+
+                    <div class="recipe-card-description"> 
+                        <img src="/assets/recipe-card/recipe-card-timer.svg" alt="">
+                        <p> {{ cookingTime }} </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </figcaption>
+</figure>

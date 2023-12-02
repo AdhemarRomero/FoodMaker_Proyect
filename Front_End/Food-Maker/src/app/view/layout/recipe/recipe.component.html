@@ -1,0 +1,94 @@
+<main class="recipe-main-container">
+    <form [formGroup]="formRecipe" (submit)="handleSubmit()">
+        <h1 class="recipe-title">Añadir Receta</h1>
+        <section class="recipe-header-container">
+            <img src="/assets/recipe/recipe-avatar.svg" alt="">
+            <div class="recipe-header-form">
+                <input type="text"
+                    formControlName="title"
+                    [value]="formRecipeData['title']"
+                    class="recipe-input-title"
+                    placeholder="Titulo de la receta"
+                >
+
+                <textarea
+                    formControlName="description"
+                    [value]="formRecipeData['description']"
+                    cols="10" 
+                    rows="5"
+                    class="recipe-input-description" 
+                    placeholder="Description"
+                ></textarea>
+            </div>
+        </section>
+        <section class="recipe-body-contianer">
+            <div class="recipe-body-subcontianer">
+                <h2 class="recipe-body-title">Instrucciones:</h2>
+                <textarea class="recipe-instructions-description"
+                    formControlName="instructions"
+                    [value]="formRecipeData['instructions']"
+                ></textarea>
+            </div>
+            <div class="recipe-body-subcontianer">
+                <h2 class="recipe-body-title">Ingredientes:</h2>
+                <div class="recipe-body-button-container">
+                    <div (click)="handleAddIngredient()" class="recipe-body-button">
+                        Añadir ingrediente
+                        <img src="/assets/recipe/recipe-plus.svg" alt="+">
+                    </div>
+                </div>
+                <div class="recipe-ingredients-description">
+                    <p *ngFor="let ingredient of ingredients">
+                        • {{ ingredient.quantity }} {{ ingredient.name }}
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="recipe-footer-container">
+            <div class="v">
+                <h2 class="recipe-footer-title">Tiempo de preparación</h2>
+                <div class="recipe-form-subcontainer">
+                    <input class="recipe-form-input"
+                        formControlName="cookingTimeHours"
+                        [value]="formRecipeData['cookingTimeHours']"
+                        type="number" 
+                        minlength="2" 
+                        maxlength="2"
+                        required
+                    >
+                    
+                    <span class="recipe-form-input-separator">
+                        :
+                    </span>
+                    
+                    <input class="recipe-form-input"
+                        formControlName="cookingTimeMinutes"
+                        [value]="formRecipeData['cookingTimeMinutes']"
+                        type="number" 
+                        minlength="2" 
+                        maxlength="2"
+                        required
+                    >
+                    
+                    <span class="recipe-form-input-separator">
+                        :
+                    </span>
+
+                    <input class="recipe-form-input"
+                        formControlName="cookingTimeSeconds"
+                        [value]="formRecipeData['cookingTimeSeconds']"
+                        type="number" 
+                        minlength="2" 
+                        maxlength="2"
+                        required
+                    >
+                </div>
+            </div>
+            <div>
+                <button class="recipe-button">
+                    {{ (!availableRecipe.id) ? "Añadir Receta" : "Actualizar Receta" }}
+                </button>
+            </div>
+        </section>
+    </form>
+</main>

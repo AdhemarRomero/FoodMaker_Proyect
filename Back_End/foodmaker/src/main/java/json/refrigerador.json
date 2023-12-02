@@ -1,0 +1,20 @@
+[
+  { "nombre": "Pasta", "cantidad": "200g" },
+  { "nombre": "Pollo", "cantidad": "500g" },
+  { "nombre": "Salsa de Queso", "cantidad": "1 envase" },
+  { "nombre": "Ajo", "cantidad": "2 dientes" },
+  { "nombre": "Lechuga", "cantidad": "1 cabeza" },
+  { "nombre": "Crutones", "cantidad": "1 paquete" },
+  { "nombre": "Tortillas de Maíz", "cantidad": "8 unidades" },
+  { "nombre": "Tomates", "cantidad": "4 unidades" },
+  { "nombre": "Mozzarella", "cantidad": "200g" },
+  { "nombre": "Salmón", "cantidad": "300g" },
+  { "nombre": "Aguacate", "cantidad": "1 unidad" },
+  { "nombre": "Carne Molida", "cantidad": "400g" },
+  { "nombre": "Mayonesa", "cantidad": "2 cucharadas" },
+  { "nombre": "Manzanas", "cantidad": "4 unidades" },
+  { "nombre": "Canela", "cantidad": "1 cucharadita" },
+  { "nombre": "Caldo de Pollo", "cantidad": "1 litro" },
+  { "nombre": "Zanahorias", "cantidad": "2 unidades" },
+  { "nombre": "Apio", "cantidad": "3 tallos" }
+]

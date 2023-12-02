@@ -1,0 +1,39 @@
+<main class="register-view">
+    <section>
+        <img class="register-form-image" src="/assets/food-maker-logo.png" alt="">
+    </section>
+
+    <section>
+        <form class="register-form-main-container" 
+            [formGroup]="registerForm"
+            (ngSubmit)="handleRegisterSubmit()"
+        >
+            <div class="register-form-container">
+                <label class="register-form-text" for="">Nombre: </label>
+                <input class="register-form-input" 
+                    formControlName="name"
+                    type="text"
+                >
+            </div>
+            <div class="register-form-container">
+                <label class="register-form-text" for="">Correo: </label>
+                <input class="register-form-input" 
+                    formControlName="email"
+                    type="email"
+                >
+            </div>
+            <div class="register-form-container">
+                <label class="register-form-text" for="">Contraseña: </label>
+                <input class="register-form-input" 
+                    formControlName="password"
+                    type="password"
+                >
+            </div>
+            <button class="register-form-button" type="submit">
+                Registar
+            </button>
+
+            <p class="register-form-subtext">Ingresa pulsando <a class="register-form-subtext href" href="/login">aquí</a> </p>
+        </form>
+    </section>
+</main>

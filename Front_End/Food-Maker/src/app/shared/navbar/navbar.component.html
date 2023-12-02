@@ -1,0 +1,14 @@
+<nav class="navbar-background">
+    <ul class="navbar-routes">
+        <ng-container *ngFor="let navbarRoute of navbarRoutes">
+            <li class="navbar-route" 
+                [class]="navbarRoute?.class"
+            >
+                <img (click)="handleOnClickRoute(navbarRoute.href)"
+                    [alt]="navbarRoute.name"
+                    [src]="navbarRoute.isActive ? navbarRoute.iconActive : navbarRoute.icon"    
+                >
+            </li>
+        </ng-container>
+    </ul>
+</nav>

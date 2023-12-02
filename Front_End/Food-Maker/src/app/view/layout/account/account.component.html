@@ -1,0 +1,37 @@
+<main class="account-view">
+    <section>
+        <img class="account-form-image" src="/assets/food-maker-logo.png" alt="">
+    </section>
+
+    <section>
+        <form class="account-form-main-container"
+            [formGroup]="accountForm"
+            (ngSubmit)="handleAccountSubmit()"
+        >
+            <div class="account-form-container">
+                <label class="account-form-text" for="">Nombre: </label>
+                <input class="account-form-input" 
+                    formControlName="username"
+                    type="text"
+                >
+            </div>
+            <div class="account-form-container">
+                <label class="account-form-text" for="">Correo: </label>
+                <input class="account-form-input" 
+                    formControlName="email"
+                    type="email"
+                >
+            </div>
+            <div class="account-form-container">
+                <label class="account-form-text" for="">Contraseña: </label>
+                <input class="account-form-input" 
+                    formControlName="password"
+                    type="password"
+                >
+            </div>
+            <button class="account-form-button">
+                Actualizar datos
+            </button>
+        </form>
+    </section>
+</main>

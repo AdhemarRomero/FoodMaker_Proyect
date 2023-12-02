@@ -1,0 +1,228 @@
+.recipe-main-container {
+    padding: 1rem;
+}
+
+.recipe-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-block: 1.5rem 1rem;
+}
+
+.recipe-header-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+}
+
+.recipe-header-form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.recipe-footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.recipe-footer-subcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.recipe-footer-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.recipe-body-contianer {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+}
+
+.recipe-body-subcontianer {
+    width: 100%;
+}
+
+.recipe-body-title { 
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 1rem;
+}
+
+.recipe-body-button-container {
+    margin-bottom: 0.5rem;
+}
+
+.recipe-body-button { 
+    margin-left: auto;
+
+    display: flex;
+    gap: 0.5rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #000;
+    justify-content: flex-end;
+}
+
+.recipe-input-title {
+    border-radius: 3px;
+    border: 1px solid #78A518;
+    background: #111;
+    padding: 0.5rem;
+    color: #FFF;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.recipe-input-title::placeholder {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.recipe-input-description {
+    border-radius: 3px;
+    border: 1px solid #78A518;
+    background: #111;
+    padding: 0.5rem;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    resize: none;
+}
+
+.recipe-input-description::placeholder {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.recipe-instructions-description {
+    border-radius: 3px;
+    border: 1px solid #78A518;
+    background: #111;
+    padding: 0.5rem;
+
+    min-height: 252.784px;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    resize: none;
+}
+
+.recipe-ingredients-description {
+    border-radius: 3px;
+    border: 1px solid #78A518;
+    background: #111;
+
+    padding: 0.5rem;
+
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    min-height: 231px;
+}
+
+.recipe-form-subcontainer {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+}
+
+.recipe-form-input {
+    width: 18px;
+    aspect-ratio: 1;    
+    
+    flex-shrink: 0;
+
+    border-radius: 3px;
+    border: 1px solid #78A518;
+    background: #111;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: center;
+}
+
+.recipe-form-input-separator {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.recipe-button {
+    color: #78A518;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-radius: 15px;
+    border: 2px solid #78A518;
+    background: #3D3D3D;
+    padding: 0.5rem 1.5rem;
+}

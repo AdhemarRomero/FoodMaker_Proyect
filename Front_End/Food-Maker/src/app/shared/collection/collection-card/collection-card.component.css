@@ -1,0 +1,29 @@
+.collection-card-main-container {
+    width: 90px;
+    height: 86px;
+    flex-shrink: 0;
+
+    position: relative;
+}
+
+.collection-card-image { 
+    width: 100%;
+
+    border-radius: 9px;
+    border: 2px dashed #78A518;
+}
+
+.collection-card-trash-container {
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+
+    display: grid;
+    place-items: center;
+
+    width: 1.5rem;
+    aspect-ratio: 1;
+
+    border-radius: 100%;
+    background: #78A518;
+}

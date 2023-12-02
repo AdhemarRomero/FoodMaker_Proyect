@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    .home-main-container {
+        margin: 3rem 1rem;
+    }
+
+    .home-section-greeting {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        margin-bottom: 0.5rem;
+    }
+
+    .home-section-message { 
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        margin-bottom: 1rem;
+    }
+    
+    .home-section-recipe-cards {
+        display: flex;
+        justify-content: center;
+    }
+}

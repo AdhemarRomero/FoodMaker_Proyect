@@ -1,0 +1,7 @@
+<main class="collections-cards-main-container">
+    <ng-container *ngFor="let collection of showCollections">
+        <app-collection-card
+            [collection]="collection"
+        ></app-collection-card>
+    </ng-container>
+</main>

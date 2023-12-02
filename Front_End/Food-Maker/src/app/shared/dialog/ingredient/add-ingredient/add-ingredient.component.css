@@ -1,0 +1,57 @@
+.add-ingredient-main-container {
+    border-radius: 3px;
+    border: 1px solid #78A518;
+    background: #111;
+    min-height: 231px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.add-ingredient-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+.add-ingredient-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.add-ingredient-input {
+    border-radius: 3px;
+    border: 1px solid #78A518;
+    background: #111;
+    padding: 0.5rem;
+    color: #FFF;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+}
+
+.add-ingredient-button {
+    border-radius: 15px;
+    border: 2px solid #78A518;
+    background: #111;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 103px;
+    height: 35px;
+    flex-shrink: 0;
+    margin-top: 2rem;
+}

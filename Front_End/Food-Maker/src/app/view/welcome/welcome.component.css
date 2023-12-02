@@ -1,0 +1,131 @@
+.welcome-view {
+    width: 100%;
+    height: clamp(100vh, 100%, 100%);
+
+    padding: 3rem 1.5rem;
+
+    background: #111;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-image { 
+    width: 242px;
+    height: 102px;
+    flex-shrink: 0;
+
+    margin-bottom: 4rem;
+}
+
+.welcome-main-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 2rem;
+}
+
+.welcome-main-title-highlight {
+    color: #8AC53F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.welcome-username {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.welcome-form-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.welcome-form-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.75rem;
+}
+
+.welcome-form-text { 
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 2rem;
+}
+
+.welcome-form-subcontainer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.welcome-form-input {
+    width: 38px;
+    height: 28px;
+    flex-shrink: 0;
+
+    border-radius: 9px;
+    border: 1px solid #78A518;
+    background: #111;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.welcome-form-input-separator {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.welcome-form-button {
+    border-radius: 15px;
+    border: 2px solid #78A518;
+    background: #111;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 103px;
+    height: 35px;
+    flex-shrink: 0;
+
+    margin-top: 2rem;
+}

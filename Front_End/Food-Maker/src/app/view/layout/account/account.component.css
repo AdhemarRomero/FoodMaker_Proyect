@@ -1,0 +1,76 @@
+.account-view {
+    width: 100%;
+    height: clamp(100vh, 100%, 100%);
+
+    padding: 3rem 1.5rem;
+
+    background: #111;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-form-image { 
+    width: 242px;
+    height: 102px;
+    flex-shrink: 0;
+}
+
+.account-form-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.account-form-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.75rem;
+}
+
+.account-form-text { 
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 0.25rem;
+}
+
+.account-form-input {
+    width: 233px;
+    height: 28px;
+    flex-shrink: 0;
+
+    border-radius: 9px;
+    border: 1px solid #78A518;
+    background: #111;
+
+    color: #FFF;
+    padding-left: 0.5rem;
+}
+
+.account-form-button {
+    border-radius: 15px;
+    border: 2px solid #78A518;
+    background: #111;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 103px;
+    height: 35px;
+    flex-shrink: 0;
+
+    margin-top: 2rem;
+}

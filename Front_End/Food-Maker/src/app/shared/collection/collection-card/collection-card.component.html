@@ -1,0 +1,9 @@
+<figure (click)="handleClickCollection()" class="collection-card-main-container">
+    <img class="collection-card-image" src="/assets/collection-card/collection-card-loader.gif" alt="">
+    <figcaption>
+        {{ collection.name }}
+    </figcaption>
+    <div (click)="handleDelete()" class="collection-card-trash-container">
+        <img src="/assets/collection-card/collection-card-trash.svg" alt="">
+    </div>
+</figure>
